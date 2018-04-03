@@ -79,46 +79,46 @@ console.log(show);*/
   // funcionalidad para mostrar informacion de pago
   const dataEfectivo = [
     {
-        name:'bcp',
-        premisa1:'(*) Agentes BCP Brinda el código de empresa 02186',
-        premisa2:'(*) Agencias BCP Costo adicional: S/.1.00.'
+      name: 'bcp',
+      premisa1: '(*) BCP Agents:Prove the code of the company: 02186',
+      premisa2: '(*) BCP Agents: Additional cost S/.1.00.'
     },
     {
-        name:'interbank',
-        premisa1:'(*) Agentes Interbank Brinda el siguiente código 273001',
-        premisa2:'(*) Agencias Market de Interbank Costo adicional: S/.2.00.'
+      name: 'interbank',
+      premisa1: '(*) Interbank Agents: provide the following code: 273001',
+      premisa2: '(*) Interbank Agents: additional cost S/.2.00.'
     },
     {
-      name:'full carga',
-      premisa1:'(*) Encuenta a FullCarga en Bodegas, Farmacias, cabinas de Internet y Locutorios.',
-      premisa2:''
+      name: 'full carga',
+      premisa1: '(*) You can find FullCarga in grocery stores,farmacies, internet cafes and parlors.',
+      premisa2: ''
     }, 
     {
-      name:'bbva',
-      premisa1:'',
-      premisa2:''
+      name: 'bbva',
+      premisa1: '',
+      premisa2: ''
     }, 
     {
-      name:'banbif',
-      premisa1:'',
-      premisa2:''
+      name: 'banbif',
+      premisa1: '',
+      premisa2: ''
     },
     {
-      name:'scotiabank',
-      premisa1:'',
-      premisa2:''
+      name: 'scotiabank',
+      premisa1: '',
+      premisa2: ''
     },
     {
-      name:'wester union',
-      premisa1:'',
-      premisa2:''
+      name: 'wester union',
+      premisa1: '',
+      premisa2: ''
     },
     {
-      name:'kasnet',
-      premisa1:'',
-      premisa2:''
+      name: 'kasnet',
+      premisa1: '',
+      premisa2: ''
     }      
-  ]
+  ];
 
   var cardEfectivo = document.getElementsByClassName('card-efectivo');
 
@@ -127,15 +127,14 @@ console.log(show);*/
   for (var i = 0;i < cardEfectivo.length;i++) {
     // console.log(card.length);
     cardEfectivo[i].addEventListener('click', function() {
-        
-        for( var j = 0;j<dataEfectivo.length;j++) {
-            //console.log(data[j].pay);
-            if(this.getAttribute('alt') === dataEfectivo[j].name){
-                console.log(dataEfectivo[j].pay);
-                var element1 = document.createElement('p');
-                var element2 = document.createElement( 'p');
-                var node1 = document.createTextNode(dataEfectivo[j].premisa1);
-                var node2 = document.createTextNode(dataEfectivo[j].premisa2);
+      for (var j = 0;j < dataEfectivo.length;j++) {
+        // console.log(data[j].pay);
+        if (this.getAttribute('alt') === dataEfectivo[j].name) {
+          console.log(dataEfectivo[j].pay);
+          var element1 = document.createElement('p');
+          var element2 = document.createElement('p');
+          var node1 = document.createTextNode(dataEfectivo[j].premisa1);
+          var node2 = document.createTextNode(dataEfectivo[j].premisa2);
 
           element1.appendChild(node1);
           element2.appendChild(node2);

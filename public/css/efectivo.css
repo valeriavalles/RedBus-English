@@ -176,6 +176,10 @@
     color: rgb(224, 170, 0);
     font-size: 25px;
 }
+.fullcarga {
+    height: 48px;
+    
+}
 
 @media (min-width:768px){
     .cont-slider {
