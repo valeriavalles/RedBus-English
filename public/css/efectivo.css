@@ -1,0 +1,195 @@
+.logo-header img {
+    width: 200px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(224, 170, 0);
+    background-color: #fff;
+    border-color: rgb(224, 170, 0) rgb(224, 170, 0) rgb(224, 170, 0);
+}
+.nav-tabs {
+    border-bottom: 1px solid rgb(224, 170, 0);
+}
+.item {
+    text-align: center;
+}
+.one {
+    background: rgb(224, 170, 0);
+    color: #fff;
+}
+.two {
+    background: rgb(246, 244, 244);
+}
+.thre {
+    background: rgb(243, 206, 121);
+} 
+.medios-pago {
+    margin-top: 1%;
+    border-radius: 5px;
+}
+.imagen{
+    margin:2%;
+    width: 200px;
+    float: left;
+}
+.carousel-inner {
+    outline: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel.slide {
+    outline: 1px solid blue;
+}
+.cont-slider {
+    margin-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.carousel-item {
+    outline:  1px solid red;
+    width: 50%;
+    float: left;
+}
+.carouselExampleControls {
+    outline: 1px solid blue;
+}
+
+.slick-next::before {
+    content: url('../assets/img/next.svg');
+    color: rgb(224, 170, 0);
+}
+.slick-prev:before {
+    content: url('../assets/img/previous.svg');
+    color: rgb(224, 170, 0);
+    /*background: rgb(224, 170, 0);*/
+}
+.slider.item {
+    background: tomato;
+}
+.item img{
+    
+    width: 70%;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+ /*.item.slick-slide.slick-current{
+     margin:0.6%;
+     background: #fff;
+ }*/
+ h4 {
+     color: rgb(224, 170, 0);
+ }
+ .sli-item {
+    display: inline-block;
+    width: 50%;
+}
+.instrucciones h4 {
+    margin-top: 2%;
+}
+/*----BOTON--*/
+
+.cont-btn {
+    width: 100%;
+    margin-top: 5%;
+}
+.boton-red {
+    width: 100%;
+    border-radius: 12px;
+}
+/*-- VIA DE COMUNICACION --*/
+
+.medios {
+    margin-top: 3%;
+}
+.medios span {
+    font-weight: 500;
+    color: rgb(224, 170, 0);
+}
+.medios img {
+    width: 40%;
+}
+.item-prin.prin{
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.item-prin.contac, .item-prin.logo {
+    width: 50%;
+}
+.seleccion {
+    margin-top: 1%;
+}
+/*--- MODAL ---*/
+.cont-redbus-img img {
+    outline: none;
+    width: 110px;
+}
+.modal-content header {
+    text-align: left;
+    /*outline: 1px solid green;*/
+    padding: 1%;
+    background:rgba(201, 200, 199, 0.767) ; 
+}
+.title-redbus h2 {
+    /*color: rgb(189, 35, 35) ;*/
+    color: #000;
+    font-weight: 700;
+
+}
+.modal  {
+    background:rgba(94, 92, 92, 0.884)   ;
+}
+.main-modal {
+    margin-top: 5%;
+}
+.cont-propuesta {
+    border: 1px solid rgb(204, 203, 203) ;
+    border-top: none;
+    border-right: none;
+    padding: 2%;
+    padding-left: 6%;
+}
+.cont-propuesta img {
+    width: 100%;
+}
+.modal main {
+    background: rgb(248, 248, 248);
+}
+/*-- MODAL BOOTSTRAP 3 --*/
+
+.modal-body {
+    padding-top: 0;
+}
+.modal-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*--- BORDER NAV ---*/
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border:none;
+}
+/*--- NUMBER ICONOS --*/
+.icono {
+    color: rgb(224, 170, 0);
+    font-size: 25px;
+}
+
+@media (min-width:768px){
+    .cont-slider {
+    padding-left: 3%;
+    padding-right: 3%;
+    }
+    .slick-next::before {
+        width: 30px;
+        height: 30px;;
+    }
+    .slick-prev:before {
+       width: 30px;
+       height: 30px;
+    }
+}
+
+
